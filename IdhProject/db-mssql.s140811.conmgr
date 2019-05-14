@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="db-mssql.s140811"
+  DTS:DTSID="{1C370453-0392-4F4D-86A6-C4BF35DA3614}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=db-mssql;Initial Catalog=s14081;Integrated Security=True;Application Name=SSIS-IdhProject-{1C370453-0392-4F4D-86A6-C4BF35DA3614}db-mssql.s140811;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
