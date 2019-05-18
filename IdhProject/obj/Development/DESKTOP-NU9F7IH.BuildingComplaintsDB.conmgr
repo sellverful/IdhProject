@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-NU9F7IH.BuildingComplaintsDB"
+  DTS:DTSID="{3F45F50F-CB06-44A4-B734-134FFFBCDF84}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=DESKTOP-NU9F7IH;Initial Catalog=BuildingComplaintsDB;Integrated Security=True;Application Name=SSIS-IdhProject-{3F45F50F-CB06-44A4-B734-134FFFBCDF84}DESKTOP-NU9F7IH.BuildingComplaintsDB;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
