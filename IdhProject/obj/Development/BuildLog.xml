@@ -2,23 +2,28 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>IdhProject</Name>
-    <LastWriteTime>2019-05-18T12:38:42.2164984Z</LastWriteTime>
+    <LastWriteTime>2019-05-21T17:01:10.2804847Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>DateEntered.dtsx</Name>
-      <LastWriteTime>2019-05-18T11:57:36.9984976Z</LastWriteTime>
+      <LastWriteTime>2019-05-21T15:37:19.7522897Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>DispositionDate.dtsx</Name>
-      <LastWriteTime>2019-05-18T12:11:27.3247653Z</LastWriteTime>
+      <LastWriteTime>2019-05-21T16:37:33.1700867Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>InspectionDate.dtsx</Name>
-      <LastWriteTime>2019-05-18T12:38:41.4414566Z</LastWriteTime>
+      <LastWriteTime>2019-05-21T15:37:19.7552529Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>BuildingLocation.dtsx</Name>
+      <LastWriteTime>2019-05-21T17:02:49.644168Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
