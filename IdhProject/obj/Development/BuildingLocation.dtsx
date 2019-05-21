@@ -11,11 +11,21 @@
   DTS:LocaleID="1045"
   DTS:ObjectName="BuildingLocation"
   DTS:PackageType="5"
-  DTS:VersionBuild="20"
-  DTS:VersionGUID="{B53054EC-A04F-47B1-8B9A-3D422DB96AA4}">
+  DTS:VersionBuild="24"
+  DTS:VersionGUID="{669DEC58-1CC4-41EA-9304-543976CD1F8F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[db-mssql.s14081]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{CDBB9D65-1607-4A08-B6D7-774DDE474773}"
+      DTS:ObjectName="db-mssql.s14081">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=db-mssql;Initial Catalog=s14081;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[db-mssql.S14236]"
       DTS:CreationName="OLEDB"
@@ -50,7 +60,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\s14236\Downloads\DOB_Complaints_ReceivedSmall.csv">
+          DTS:ConnectionString="C:\Users\s14081\Documents\IDH\IdhProject\DOB_Complaints_Received_1.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -59,7 +69,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Complaint Number"
-              DTS:DTSID="{36818F46-D591-4AB1-8B16-5401F7F05FC0}"
+              DTS:DTSID="{3C618B06-265D-4B0A-AEBD-3AA8B2C98ED3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -68,7 +78,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Status"
-              DTS:DTSID="{1E3CD02C-D141-4B78-9034-6166581A07B2}"
+              DTS:DTSID="{ACF4B780-1AE9-4897-A7AC-5B5002D54D3D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -77,7 +87,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Date Entered"
-              DTS:DTSID="{178E0F19-3C69-489A-B740-E5EFFCA6C43E}"
+              DTS:DTSID="{FF58AC2E-746F-4658-9D63-CED047A69B46}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -86,7 +96,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="House Number"
-              DTS:DTSID="{39A73E27-E18A-4C57-9B06-87D0410B26DD}"
+              DTS:DTSID="{CD2CD10C-DD9A-4100-8415-68616C6948EA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -95,7 +105,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ZIP Code"
-              DTS:DTSID="{DC00DE64-E146-468F-BCB0-4FF8B9EBF82C}"
+              DTS:DTSID="{77DFDF59-38C7-45D8-917A-C5B015D054EC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -104,7 +114,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="House Street"
-              DTS:DTSID="{E05AD43F-6741-4B28-A810-58E658BD57EC}"
+              DTS:DTSID="{1E5CD280-634A-40B0-8B23-E581C0612416}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -113,7 +123,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="BIN"
-              DTS:DTSID="{81F71A47-B8B7-4B52-A6C9-3C0D83D8D22C}"
+              DTS:DTSID="{4F8BE4C1-D6EC-4156-96D0-D2CD306BD57D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -122,7 +132,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Community Board"
-              DTS:DTSID="{5EB4A493-B96E-4482-AE62-4964E6666972}"
+              DTS:DTSID="{A479668A-CCE2-4154-9953-AF2687023E6B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -131,7 +141,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Special District"
-              DTS:DTSID="{97C02550-81D4-4EF9-BCAB-03815366D0DF}"
+              DTS:DTSID="{564EAFD7-0C02-4DE9-9BF7-A39F4A22BEC0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -140,7 +150,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Complaint Category"
-              DTS:DTSID="{C4041AA0-2F1F-4D40-AD3A-E758DEA4D11F}"
+              DTS:DTSID="{8C43DC0F-FE95-41C6-BE23-3A05122EAA8C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -149,7 +159,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Unit"
-              DTS:DTSID="{9A1B6C4B-2571-4287-9D9C-3A4C2596A31A}"
+              DTS:DTSID="{0A6BBB37-CF5D-46BE-879B-BE1946AA883B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -158,7 +168,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Disposition Date"
-              DTS:DTSID="{F41264C7-AA26-4502-B394-A42D1695B610}"
+              DTS:DTSID="{643BFA5D-38D1-428E-91AA-A03E3B821D76}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -167,7 +177,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Disposition Code"
-              DTS:DTSID="{EA2DA220-D43B-4DE5-8850-27CF2D02B6FC}"
+              DTS:DTSID="{1B11CC70-EC3A-43B1-BC32-70BBA7558F22}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -176,7 +186,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Inspection Date"
-              DTS:DTSID="{4F027312-5118-4B1A-8888-DCCA38DD90EF}"
+              DTS:DTSID="{AC030ACE-BAFD-422B-8FD0-D6DEF3A35B6F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -185,7 +195,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DOBRunDate"
-              DTS:DTSID="{5A2130FD-6C7E-40C2-B610-7A4F3D62D139}"
+              DTS:DTSID="{7CE0EBCC-53F0-4AB6-AEB2-4476D00698A2}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -298,7 +308,7 @@
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="IgnoreFailure"
-                      length="255"
+                      length="50"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of House Street]"
                       name="Copy of House Street"
                       truncationRowDisposition="IgnoreFailure">
@@ -770,8 +780,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[db-mssql.S14236]"
-                  connectionManagerRefId="Package.ConnectionManagers[db-mssql.S14236]"
+                  connectionManagerID="Package.ConnectionManagers[db-mssql.s14081]"
+                  connectionManagerRefId="Package.ConnectionManagers[db-mssql.s14081]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -808,7 +818,7 @@
                     <inputColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of House Street]"
                       cachedDataType="wstr"
-                      cachedLength="255"
+                      cachedLength="50"
                       cachedName="Copy of House Street"
                       cachedSortKeyPosition="2"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[HouseStreet]"
@@ -1042,7 +1052,7 @@
                     <inputColumn
                       refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[Copy of House Street]"
                       cachedDataType="wstr"
-                      cachedLength="255"
+                      cachedLength="50"
                       cachedName="Copy of House Street"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of House Street]">
                       <properties>
@@ -1240,7 +1250,7 @@
                     <outputColumn
                       refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Copy of House Street]"
                       dataType="wstr"
-                      length="255"
+                      length="50"
                       lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Copy of House Street]"
                       name="Copy of House Street"
                       sortKeyPosition="2">
@@ -1349,7 +1359,7 @@
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{F5DD1C7F-F5DE-4999-9094-8C14FA44260C}"
+          SQLTask:Connection="{CDBB9D65-1607-4A08-B6D7-774DDE474773}"
           SQLTask:SqlStatementSource="delete from BuildingLocation;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
