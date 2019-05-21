@@ -4,4 +4,4 @@
 - [DOB_Complaints_Received.csv](https://data.cityofnewyork.us/api/views/eabe-havv/rows.csv?accessType=DOWNLOAD)
 - [Disposition codes](https://www1.nyc.gov/assets/buildings/pdf/bis_complaint_disposition_codes.pdf)
 - [Complaint category](https://www1.nyc.gov/assets/buildings/pdf/complaint_category.pdf)
-- [Database picture] (https://my.vertabelo.com/doc/HA8SbdSj1D7qkVnneEDNnTZDFua50ggO)
+- [Database picture](https://my.vertabelo.com/doc/HA8SbdSj1D7qkVnneEDNnTZDFua50ggO)
