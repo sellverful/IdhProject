@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">LAB130-05</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcDDjuepi+k2kqni0B/p8BAAAAAACAAAAAAADZgAAwAAAABAAAABS6wkNjSRiCtdijoupKl+LAAAAAASAAACgAAAAEAAAAIP4FLkEuhmy8zceXSvAO3uIAAAAl1RLvlXBHlLaqeF4pHd8Dx1vv+JjDMwPiv6KPzaJux/e7p4df6yZgw1zszGiQbT3SCZU/DC3kUsS4LxC382usqYBrMhzRGz/cpNT5Cra7bkh5hii3sJ1+XDT5/ki71ry/p+6TZOiOeSz7XCld1VvckE+5thK77DarLicymFyMJeRGIVKk4ynfRQAAABaYNk90SIO6NKhVPo/e/zJgLAxJA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAAlwWMowkO02LB2w4MtxXcgAAAAACAAAAAAADZgAAwAAAABAAAABGKrKQsLrbt1ljn+QZpPzNAAAAAASAAACgAAAAEAAAABcFA8HQwWOfPG7ZBrWLdpSIAAAAgRPASezmbnjVOXpK+W2E7GQ9/NUEssrkPskj5Ce6OEJcMw2sXGrSCjtaG22Ru3LWLXSe+ppcPg13VvnvuojvgAPIoNIO61XCiBXPRi3A16EmsNHhi62BSbEAvFjgtkbZg/I2VKBBrf294BK5uqOqXEADy3HcM7PCKhnkNjDz185x/F/ZY7wLXhQAAABLy0gwL+RovxmAOL2O2Dp2y1Paxw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -1815,10 +1815,10 @@
                 <SSIS:Property SSIS:Name="Name">Disposition</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">13</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">17</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{455FC274-50A3-4DF3-8877-39DE1C9B3AA4}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{D0D92AF3-124D-4B04-85BD-AA98918B86CF}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -1939,7 +1939,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">1250</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">65001</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1969,7 +1969,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\s14081\Documents\IDH\IdhProject\DOB_Complaints_Received_1.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Users\s14081\Downloads\IDH\IdhProject\DOB_Complaints_Received_1.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -2149,7 +2149,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\s14081\Documents\IDH\IdhProject\DispositionCodes (1) (2).csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Users\s14081\Downloads\IDH\IdhProject\DispositionCodes (1) (2).csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -2281,10 +2281,10 @@
                 <SSIS:Property SSIS:Name="Name">Complaint</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">12</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">16</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{EC6B481D-A26F-4C8B-96AD-DA4FA391A9EE}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{86335552-4F0F-4E80-97B5-AEC433DBE998}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -2435,7 +2435,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\s14081\Documents\IDH\IdhProject\DOB_Complaints_Received_1.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Users\s14081\Downloads\IDH\IdhProject\DOB_Complaints_Received_1.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -2617,7 +2617,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\s14081\Documents\IDH\IdhProject\ComplaintCategory (1) (1).csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Users\s14081\Downloads\IDH\IdhProject\ComplaintCategory (1).csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
