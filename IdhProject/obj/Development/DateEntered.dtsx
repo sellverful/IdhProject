@@ -7,15 +7,25 @@
   DTS:CreatorName="PJWSTK\s14081"
   DTS:DTSID="{FBF390B0-7741-45DC-B126-17879DAB217F}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="15.0.0900.30"
+  DTS:LastModifiedProductVersion="15.0.1300.371"
   DTS:LocaleID="1045"
   DTS:ObjectName="DateEntered"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{AB19C1E7-95B8-4515-AEBF-087F3A5555D3}">
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{B77F3C51-446B-4CA1-B899-85EB4715A820}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-JBAQPBF\SLAVADB.master]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{24D0306F-7805-4533-A214-A5E8A93EADCC}"
+      DTS:ObjectName="DESKTOP-JBAQPBF\SLAVADB.master">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-JBAQPBF\SLAVADB;Initial Catalog=master;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[DESKTOP-NU9F7IH.BuildingComplaintsDB1]"
       DTS:CreationName="OLEDB"
@@ -40,7 +50,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="D:\`Academy\IDH\Project\IdhProject\DOB_Complaints_Received.csv">
+          DTS:ConnectionString="D:\Akademy\IDH\DOB_Complaints_Received.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -49,7 +59,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Complaint Number"
-              DTS:DTSID="{61FCE2CF-4697-4A1F-AF3D-983C2EA3C3A3}"
+              DTS:DTSID="{465819C9-E89F-4228-ABC8-1031E2EE0BDA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -58,7 +68,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Status"
-              DTS:DTSID="{6E94A218-BBF4-4941-890E-FA3E32272FD8}"
+              DTS:DTSID="{A714C269-6E36-47BA-8966-5E356BADAE25}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -67,7 +77,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Date Entered"
-              DTS:DTSID="{38C20F7E-BAF7-43EF-8F29-7D8321A96479}"
+              DTS:DTSID="{4C2ED70C-2479-4953-8C4C-540D5B659011}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -76,7 +86,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="House Number"
-              DTS:DTSID="{8C439593-B994-44CC-896E-5C8064C66BF9}"
+              DTS:DTSID="{67C714B1-CD0B-493C-943E-ABE3FFF15814}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -85,7 +95,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ZIP Code"
-              DTS:DTSID="{04394398-FE0C-4C63-ACD6-00DA957B5A20}"
+              DTS:DTSID="{89158A7B-651E-40EB-81C5-13575E42CE6C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -94,7 +104,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="House Street"
-              DTS:DTSID="{3ACD5226-6C25-49BE-AC90-F72A7E3E83F8}"
+              DTS:DTSID="{5FB83240-E9EF-4108-97BC-5A27EC768A46}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -103,7 +113,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="BIN"
-              DTS:DTSID="{FEC27008-77A6-4C02-AE4C-27E9A6F111C3}"
+              DTS:DTSID="{29609225-ADE3-48F2-B37B-99D02D20D183}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -112,7 +122,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Community Board"
-              DTS:DTSID="{2B1DE4F2-C93F-4A29-AD5E-BF8B4926C422}"
+              DTS:DTSID="{795547AD-2807-444B-8638-EF63D14B121F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -121,7 +131,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Special District"
-              DTS:DTSID="{137BFA28-62FB-4FE1-AF0A-47280BD1A0C8}"
+              DTS:DTSID="{2861F3A4-7EE7-4275-9322-8F2FF599B810}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -130,7 +140,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Complaint Category"
-              DTS:DTSID="{B2F04CB8-164A-4E79-8A5C-DD4758194496}"
+              DTS:DTSID="{F8AA95DC-0603-4BAF-A4C2-E80C937E0B06}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -139,7 +149,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Unit"
-              DTS:DTSID="{A8E5BAE8-DC66-45F0-B15C-2B91E0A4781C}"
+              DTS:DTSID="{356531AE-032D-4549-BC38-5937728C72FD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -148,7 +158,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Disposition Date"
-              DTS:DTSID="{4AE48E79-ED34-40C6-8555-80185284D3DC}"
+              DTS:DTSID="{D24EC65B-0964-45ED-9AFA-4EC82B087E35}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -157,7 +167,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Disposition Code"
-              DTS:DTSID="{31A21BC3-1674-4007-9A32-0F7DB0CFF3BB}"
+              DTS:DTSID="{B37E6ECD-E34A-4E5C-A088-6E6025EA3297}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -166,7 +176,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Inspection Date"
-              DTS:DTSID="{247CB58F-958A-40C0-B6A1-B5287145D4E0}"
+              DTS:DTSID="{9E5A162A-C3BC-4A6B-8397-887A21090A77}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -175,7 +185,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DOBRunDate"
-              DTS:DTSID="{D103BB05-3CBF-4700-B1C1-3803FC020EB4}"
+              DTS:DTSID="{9B7573E7-E578-4A64-83BA-F66E8C50BFFB}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -434,8 +444,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-NU9F7IH.BuildingComplaintsDB1]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-NU9F7IH.BuildingComplaintsDB1]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-JBAQPBF\SLAVADB.master]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-JBAQPBF\SLAVADB.master]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1969,18 +1979,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\Execute SQL Task"
+      DTS:refId="Package\Date Entered"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
       DTS:DTSID="{3557F3E3-14EC-4B0E-A52B-1D3677485767}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Execute SQL Task"
+      DTS:ObjectName="Date Entered"
       DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{634DD69E-94C6-4F08-8C39-4F9D4F9B2FC7}"
+          SQLTask:Connection="{24D0306F-7805-4533-A214-A5E8A93EADCC}"
           SQLTask:SqlStatementSource="delete from DateEntered;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
@@ -1990,7 +2000,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
       DTS:DTSID="{A8E309A6-32E7-45EA-8A65-E034A4C47FDD}"
-      DTS:From="Package\Execute SQL Task"
+      DTS:From="Package\Date Entered"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
       DTS:To="Package\Data Flow Task" />
@@ -2012,12 +2022,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
           Id="Package\Data Flow Task"
           TopLeft="202,205" />
         <NodeLayout
-          Size="163,42"
-          Id="Package\Execute SQL Task"
+          Size="141,42"
+          Id="Package\Date Entered"
           TopLeft="203,79" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="281,121">
+          TopLeft="275.5,121">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2044,11 +2054,15 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
     design-time-name="Package\Data Flow Task">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="163,42"
           Id="Package\Data Flow Task\Script Component"
           TopLeft="261,157" />
+        <NodeLayout
+          Size="98,42"
+          Id="Package\Data Flow Task\Sort"
+          TopLeft="386,227" />
         <NodeLayout
           Size="151,42"
           Id="Package\Data Flow Task\Flat File Source"
@@ -2057,78 +2071,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
           Size="171,42"
           Id="Package\Data Flow Task\OLE DB Destination"
           TopLeft="365,299" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Flat File Source Output]"
-          TopLeft="257.5,98">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="85,59"
-              Start="0,0"
-              End="85,51.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25.5"
-                    Point2="0,29.5"
-                    Point3="4,29.5" />
-                  <mssgle:LineSegment
-                    End="81,29.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="81,29.5"
-                    Point2="85,29.5"
-                    Point3="85,33.5" />
-                  <mssgle:LineSegment
-                    End="85,51.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="98,42"
-          Id="Package\Data Flow Task\Sort"
-          TopLeft="386,227" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Output 0]"
-          TopLeft="342.5,199">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="92.5,28"
-              Start="0,0"
-              End="92.5,20.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,10" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,10"
-                    Point2="0,14"
-                    Point3="4,14" />
-                  <mssgle:LineSegment
-                    End="88.5,14" />
-                  <mssgle:CubicBezierSegment
-                    Point1="88.5,14"
-                    Point2="92.5,14"
-                    Point3="92.5,18" />
-                  <mssgle:LineSegment
-                    End="92.5,20.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Sort Output]"
           TopLeft="435,269">
@@ -2160,7 +2102,81 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Output 0]"
+          TopLeft="342.5,199">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="92.5,28"
+              Start="0,0"
+              End="92.5,20.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,10" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,10"
+                    Point2="0,14"
+                    Point3="4,14" />
+                  <mssgle:LineSegment
+                    End="88.5,14" />
+                  <mssgle:CubicBezierSegment
+                    Point1="88.5,14"
+                    Point2="92.5,14"
+                    Point3="92.5,18" />
+                  <mssgle:LineSegment
+                    End="92.5,20.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Flat File Source Output]"
+          TopLeft="257.5,98">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="85,59"
+              Start="0,0"
+              End="85,51.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.5"
+                    Point2="0,29.5"
+                    Point3="4,29.5" />
+                  <mssgle:LineSegment
+                    End="81,29.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="81,29.5"
+                    Point2="85,29.5"
+                    Point3="85,33.5" />
+                  <mssgle:LineSegment
+                    End="85,51.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>

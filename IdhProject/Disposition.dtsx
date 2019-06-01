@@ -7,12 +7,12 @@
   DTS:CreatorName="PJWSTK\s14081"
   DTS:DTSID="{C0AE4D61-A7FE-480C-A466-25DDD4B51904}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="15.0.0900.30"
+  DTS:LastModifiedProductVersion="15.0.1300.371"
   DTS:LocaleID="1045"
   DTS:ObjectName="Disposition"
   DTS:PackageType="5"
-  DTS:VersionBuild="17"
-  DTS:VersionGUID="{D0D92AF3-124D-4B04-85BD-AA98918B86CF}">
+  DTS:VersionBuild="19"
+  DTS:VersionGUID="{11B1C8C7-69D7-4060-B56A-30AF8366D11B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -24,6 +24,16 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectionString="Data Source=db-mssql;Initial Catalog=s14081;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-JBAQPBF\SLAVADB.master]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{7B9E503B-5C0F-44CD-9869-A7118889861A}"
+      DTS:ObjectName="DESKTOP-JBAQPBF\SLAVADB.master">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-JBAQPBF\SLAVADB;Initial Catalog=master;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -40,7 +50,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\s14081\Downloads\IDH\IdhProject\DOB_Complaints_Received_1.csv">
+          DTS:ConnectionString="D:\Akademy\IDH\DOB_Complaints_Received.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -49,7 +59,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Complaint Number"
-              DTS:DTSID="{89CB062B-059D-4099-9B57-CE9A4D93C852}"
+              DTS:DTSID="{CC65A79F-17B2-4DD9-9CC2-AFEE4788490A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -58,7 +68,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Status"
-              DTS:DTSID="{0C0FA3A2-5355-450E-A233-9112281DC3A8}"
+              DTS:DTSID="{527AB317-EDC8-4F50-AC0A-16464C05A4C9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -67,7 +77,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Date Entered"
-              DTS:DTSID="{52D6E7DD-FE26-4AC3-A7CF-781F455CA403}"
+              DTS:DTSID="{46339DC8-5609-43DA-A513-B63D11148413}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -76,7 +86,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="House Number"
-              DTS:DTSID="{D0B892A5-06E8-483A-8603-50602A6F5242}"
+              DTS:DTSID="{7AD37DA9-94BD-4556-8598-B62FC252FEC4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -85,7 +95,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ZIP Code"
-              DTS:DTSID="{3DFECA5A-263C-4897-9CCB-F1B15C45D9CE}"
+              DTS:DTSID="{29F81650-8E11-47AE-B6F2-B2C92F11B6FD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -94,7 +104,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="House Street"
-              DTS:DTSID="{CA7F16AC-CE68-4E56-A177-0E5436815DA4}"
+              DTS:DTSID="{ABC1BECA-68FA-473C-9788-B0E371C7A1F0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -103,7 +113,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="BIN"
-              DTS:DTSID="{6E09D46C-E68F-4650-B135-4728E8A395E0}"
+              DTS:DTSID="{5F839AAA-6721-4286-BEAE-B8C833BEFCAC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -112,7 +122,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Community Board"
-              DTS:DTSID="{6499997D-CF93-46FC-A80A-8FC2B205CA76}"
+              DTS:DTSID="{4143E967-CBC5-4799-9D10-E9198BDBC0CF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -121,7 +131,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Special District"
-              DTS:DTSID="{4E9C5FC8-922E-45B6-8328-334DE4B9CB40}"
+              DTS:DTSID="{E08613C7-BAC1-4579-9C2F-0618F6937812}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -130,7 +140,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Complaint Category"
-              DTS:DTSID="{0EE7A050-FEFE-4F6D-A0FD-9E6BBE8B605E}"
+              DTS:DTSID="{BEEEAEAC-6F37-4C37-8986-B38D750EB517}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -139,7 +149,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Unit"
-              DTS:DTSID="{DBA942AE-D526-4AA9-ACC0-090AACD25E60}"
+              DTS:DTSID="{A6309DEC-540E-4917-8E7F-548057F252EA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -148,7 +158,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Disposition Date"
-              DTS:DTSID="{BD6573E5-88C3-4ED3-99F6-3CA484CEAE06}"
+              DTS:DTSID="{5CFA0C59-1892-4F72-8878-F5EB9208ED75}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -157,7 +167,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Disposition Code"
-              DTS:DTSID="{BCE0528F-9E81-4ECF-931D-2D324F78814C}"
+              DTS:DTSID="{0891B8B5-8525-4BE6-BE92-B6B6E3BA9646}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -166,7 +176,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Inspection Date"
-              DTS:DTSID="{51D085B2-25C5-4B4E-85E0-ABAA69302F6C}"
+              DTS:DTSID="{F9FDA6E9-1F41-4905-AF06-1A98332AD1E2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -175,7 +185,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DOBRunDate"
-              DTS:DTSID="{EFD75F57-9F28-450D-9B18-D289A942D539}"
+              DTS:DTSID="{C69ED684-7AF8-431E-940A-740A398C2E65}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -195,7 +205,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1250"
-          DTS:ConnectionString="C:\Users\s14081\Downloads\IDH\IdhProject\DispositionCodes (1) (2).csv">
+          DTS:ConnectionString="D:\Akademy\IDH\DispositionCodes.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -204,7 +214,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DISP CODE "
-              DTS:DTSID="{832097CD-A347-4DAE-936E-1B5612F3B35B}"
+              DTS:DTSID="{B121A6A9-CE20-47AC-A8D6-D197ED4863A6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -213,7 +223,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DISPOSITION TEXT"
-              DTS:DTSID="{945A63CF-092E-4B55-BD81-E45EEC61C353}"
+              DTS:DTSID="{D238D258-BD4E-483D-818A-D33458F847DB}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -809,8 +819,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[db-mssql.s14081]"
-                  connectionManagerRefId="Package.ConnectionManagers[db-mssql.s14081]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-JBAQPBF\SLAVADB.master]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-JBAQPBF\SLAVADB.master]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1271,18 +1281,18 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\Execute SQL Task"
+      DTS:refId="Package\Disposition Task"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
       DTS:DTSID="{ED9F6108-5B82-4832-B425-19E2D2FA07BE}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Execute SQL Task"
+      DTS:ObjectName="Disposition Task"
       DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{D3B476A7-704F-4AFB-8EC0-B1FC3004E606}"
+          SQLTask:Connection="{7B9E503B-5C0F-44CD-9869-A7118889861A}"
           SQLTask:SqlStatementSource="delete from Disposition;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
@@ -1292,7 +1302,7 @@
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
       DTS:DTSID="{BFA19103-9CB9-4B1D-A070-EB16348FAFDA}"
-      DTS:From="Package\Execute SQL Task"
+      DTS:From="Package\Disposition Task"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
       DTS:To="Package\Data Flow Task" />
@@ -1314,18 +1324,18 @@
           Id="Package\Data Flow Task"
           TopLeft="223,229" />
         <NodeLayout
-          Size="163,42"
-          Id="Package\Execute SQL Task"
+          Size="155,42"
+          Id="Package\Disposition Task"
           TopLeft="162,54" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="243.5,96">
+          TopLeft="239.5,96">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="55,133"
+              EndConnector="59,133"
               Start="0,0"
-              End="55,125.5">
+              End="59,125.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -1336,13 +1346,13 @@
                     Point2="0,66.5"
                     Point3="4,66.5" />
                   <mssgle:LineSegment
-                    End="51,66.5" />
+                    End="55,66.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="51,66.5"
-                    Point2="55,66.5"
-                    Point3="55,70.5" />
+                    Point1="55,66.5"
+                    Point2="59,66.5"
+                    Point3="59,70.5" />
                   <mssgle:LineSegment
-                    End="55,125.5" />
+                    End="59,125.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1358,7 +1368,7 @@
     design-time-name="Package\Data Flow Task">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="151,42"
           Id="Package\Data Flow Task\Flat File Source"
@@ -1422,7 +1432,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -1456,7 +1468,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -1478,7 +1492,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -1512,7 +1528,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -1546,7 +1564,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -1568,7 +1588,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -1602,7 +1624,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>

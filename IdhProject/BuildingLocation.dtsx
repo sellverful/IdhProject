@@ -7,12 +7,12 @@
   DTS:CreatorName="PJWSTK\s14081"
   DTS:DTSID="{AEB36A57-93AC-4ED0-B654-51BD2F7B4933}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="15.0.0900.30"
+  DTS:LastModifiedProductVersion="15.0.1300.371"
   DTS:LocaleID="1045"
   DTS:ObjectName="BuildingLocation"
   DTS:PackageType="5"
-  DTS:VersionBuild="24"
-  DTS:VersionGUID="{669DEC58-1CC4-41EA-9304-543976CD1F8F}">
+  DTS:VersionBuild="30"
+  DTS:VersionGUID="{93DB4660-A1F2-463B-9DE9-8C01D4E1996B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -34,6 +34,16 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectionString="Data Source=db-mssql;Initial Catalog=S14236;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-JBAQPBF\SLAVADB.master]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{420D25A8-5078-4B88-9DAF-309F2E5017E4}"
+      DTS:ObjectName="DESKTOP-JBAQPBF\SLAVADB.master">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-JBAQPBF\SLAVADB;Initial Catalog=master;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -60,16 +70,16 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\s14081\Documents\IDH\IdhProject\DOB_Complaints_Received_1.csv">
+          DTS:ConnectionString="D:\Akademy\IDH\DOB_Complaints_Received.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="200"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Complaint Number"
-              DTS:DTSID="{3C618B06-265D-4B0A-AEBD-3AA8B2C98ED3}"
+              DTS:DTSID="{231095CF-DCAF-4D6A-BEA5-03C3AB9D1712}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -78,7 +88,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Status"
-              DTS:DTSID="{ACF4B780-1AE9-4897-A7AC-5B5002D54D3D}"
+              DTS:DTSID="{1FB3B5DA-62FE-4E6E-B78E-6702885F3AD5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -87,7 +97,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Date Entered"
-              DTS:DTSID="{FF58AC2E-746F-4658-9D63-CED047A69B46}"
+              DTS:DTSID="{4711A26C-899A-4B2D-8EEC-201BB1E13069}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -96,7 +106,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="House Number"
-              DTS:DTSID="{CD2CD10C-DD9A-4100-8415-68616C6948EA}"
+              DTS:DTSID="{8FA6A038-CB42-4472-813E-621AC1B34195}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -105,7 +115,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ZIP Code"
-              DTS:DTSID="{77DFDF59-38C7-45D8-917A-C5B015D054EC}"
+              DTS:DTSID="{1132666F-E656-44C5-ACE0-6EE8AE831FE7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -114,7 +124,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="House Street"
-              DTS:DTSID="{1E5CD280-634A-40B0-8B23-E581C0612416}"
+              DTS:DTSID="{7B51DCA3-2167-42A2-A493-6C61BC289D6E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -123,7 +133,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="BIN"
-              DTS:DTSID="{4F8BE4C1-D6EC-4156-96D0-D2CD306BD57D}"
+              DTS:DTSID="{64363516-9423-48CF-89EA-A7D4BDD22D11}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -132,7 +142,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Community Board"
-              DTS:DTSID="{A479668A-CCE2-4154-9953-AF2687023E6B}"
+              DTS:DTSID="{7C9EEE5B-B458-4451-BB6C-AF19996C1BC6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -141,7 +151,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Special District"
-              DTS:DTSID="{564EAFD7-0C02-4DE9-9BF7-A39F4A22BEC0}"
+              DTS:DTSID="{538662BF-7EEB-4497-B1A4-D9F2152BC5B3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -150,7 +160,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Complaint Category"
-              DTS:DTSID="{8C43DC0F-FE95-41C6-BE23-3A05122EAA8C}"
+              DTS:DTSID="{AC8FB65D-776E-4051-8CC4-B024457B9950}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -159,7 +169,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Unit"
-              DTS:DTSID="{0A6BBB37-CF5D-46BE-879B-BE1946AA883B}"
+              DTS:DTSID="{B2B1FDE4-B3F6-4FCB-B9B7-FA4A9AE7EB14}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -168,7 +178,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Disposition Date"
-              DTS:DTSID="{643BFA5D-38D1-428E-91AA-A03E3B821D76}"
+              DTS:DTSID="{5B0CAEF5-B84C-4C01-9A1D-DF183ABC4B37}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -177,7 +187,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Disposition Code"
-              DTS:DTSID="{1B11CC70-EC3A-43B1-BC32-70BBA7558F22}"
+              DTS:DTSID="{92876B58-B944-4DAB-B73C-AAFB5156E82C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -186,7 +196,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Inspection Date"
-              DTS:DTSID="{AC030ACE-BAFD-422B-8FD0-D6DEF3A35B6F}"
+              DTS:DTSID="{6ACB24B0-F4BE-462F-9F2A-BDDC2D5D4A83}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -195,7 +205,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DOBRunDate"
-              DTS:DTSID="{7CE0EBCC-53F0-4AB6-AEB2-4476D00698A2}"
+              DTS:DTSID="{930AE924-CD72-4113-975E-1E67B5CD5E6B}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -205,13 +215,29 @@
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\Data Flow Task"
+      DTS:refId="Package\BuildingLocation"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{066BE765-8C44-4ED9-A67E-D9B97184DBA7}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="BuildingLocation"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{420D25A8-5078-4B88-9DAF-309F2E5017E4}"
+          SQLTask:SqlStatementSource="delete from BuildingLocation;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\BuildingLocation Task"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
       DTS:DTSID="{0FD609E7-3F07-4724-84C7-CC7574EAF8F2}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Data Flow Task"
+      DTS:ObjectName="BuildingLocation Task"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -219,7 +245,7 @@
           version="1">
           <components>
             <component
-              refId="Package\Data Flow Task\Data Conversion"
+              refId="Package\BuildingLocation Task\Data Conversion"
               componentClassID="Microsoft.DataConvert"
               contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
               description="Data Conversion"
@@ -227,68 +253,69 @@
               usesDispositions="true">
               <inputs>
                 <input
-                  refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input]"
+                  refId="Package\BuildingLocation Task\Data Conversion.Inputs[Data Conversion Input]"
                   name="Data Conversion Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[House Number]"
+                      refId="Package\BuildingLocation Task\Data Conversion.Inputs[Data Conversion Input].Columns[House Number]"
                       cachedCodepage="65001"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="House Number"
-                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[House Number]" />
+                      lineageId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[House Number]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[House Street]"
+                      refId="Package\BuildingLocation Task\Data Conversion.Inputs[Data Conversion Input].Columns[House Street]"
                       cachedCodepage="65001"
                       cachedDataType="str"
                       cachedLength="500"
                       cachedName="House Street"
-                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[House Street]" />
+                      lineageId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[House Street]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[ZIP Code]"
+                      refId="Package\BuildingLocation Task\Data Conversion.Inputs[Data Conversion Input].Columns[ZIP Code]"
                       cachedCodepage="65001"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="ZIP Code"
-                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ZIP Code]" />
+                      lineageId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[ZIP Code]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[Special District]"
+                      refId="Package\BuildingLocation Task\Data Conversion.Inputs[Data Conversion Input].Columns[Special District]"
                       cachedCodepage="65001"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Special District"
-                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Special District]" />
+                      lineageId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[Special District]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[Community Board]"
+                      refId="Package\BuildingLocation Task\Data Conversion.Inputs[Data Conversion Input].Columns[Community Board]"
                       cachedCodepage="65001"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Community Board"
-                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Community Board]" />
+                      lineageId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[Community Board]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[BIN]"
+                      refId="Package\BuildingLocation Task\Data Conversion.Inputs[Data Conversion Input].Columns[BIN]"
                       cachedCodepage="65001"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="BIN"
-                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[BIN]" />
+                      lineageId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[BIN]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output]"
+                  refId="Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output]"
                   exclusionGroup="1"
                   name="Data Conversion Output"
-                  synchronousInputId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input]">
+                  synchronousInputId="Package\BuildingLocation Task\Data Conversion.Inputs[Data Conversion Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of House Number]"
-                      dataType="i4"
+                      refId="Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of House Number]"
+                      dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="IgnoreFailure"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of House Number]"
+                      length="50"
+                      lineageId="Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of House Number]"
                       name="Copy of House Number"
                       truncationRowDisposition="IgnoreFailure">
                       <properties>
@@ -296,7 +323,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[House Number]}</property>
+                          name="SourceInputColumnLineageID">#{Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[House Number]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -304,12 +331,12 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of House Street]"
+                      refId="Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of House Street]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="IgnoreFailure"
                       length="50"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of House Street]"
+                      lineageId="Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of House Street]"
                       name="Copy of House Street"
                       truncationRowDisposition="IgnoreFailure">
                       <properties>
@@ -317,7 +344,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[House Street]}</property>
+                          name="SourceInputColumnLineageID">#{Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[House Street]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -325,12 +352,12 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ZIP Code]"
+                      refId="Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ZIP Code]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="IgnoreFailure"
                       length="50"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ZIP Code]"
+                      lineageId="Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ZIP Code]"
                       name="Copy of ZIP Code"
                       truncationRowDisposition="IgnoreFailure">
                       <properties>
@@ -338,7 +365,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ZIP Code]}</property>
+                          name="SourceInputColumnLineageID">#{Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[ZIP Code]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -346,12 +373,12 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Special District]"
+                      refId="Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Special District]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="IgnoreFailure"
                       length="50"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Special District]"
+                      lineageId="Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Special District]"
                       name="Copy of Special District"
                       truncationRowDisposition="IgnoreFailure">
                       <properties>
@@ -359,7 +386,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Special District]}</property>
+                          name="SourceInputColumnLineageID">#{Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[Special District]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -367,12 +394,12 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Community Board]"
+                      refId="Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Community Board]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="IgnoreFailure"
                       length="50"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Community Board]"
+                      lineageId="Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Community Board]"
                       name="Copy of Community Board"
                       truncationRowDisposition="IgnoreFailure">
                       <properties>
@@ -380,7 +407,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Community Board]}</property>
+                          name="SourceInputColumnLineageID">#{Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[Community Board]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -388,11 +415,11 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of BIN]"
+                      refId="Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of BIN]"
                       dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="IgnoreFailure"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of BIN]"
+                      lineageId="Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of BIN]"
                       name="Copy of BIN"
                       truncationRowDisposition="IgnoreFailure">
                       <properties>
@@ -400,7 +427,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[BIN]}</property>
+                          name="SourceInputColumnLineageID">#{Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[BIN]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -411,22 +438,22 @@
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Error Output]"
+                  refId="Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Data Conversion Error Output"
-                  synchronousInputId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input]">
+                  synchronousInputId="Package\BuildingLocation Task\Data Conversion.Inputs[Data Conversion Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      refId="Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      lineageId="Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      refId="Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -435,7 +462,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task\Flat File Source"
+              refId="Package\BuildingLocation Task\Flat File Source"
               componentClassID="Microsoft.FlatFileSource"
               contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
               description="Flat File Source"
@@ -455,25 +482,25 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Data Flow Task\Flat File Source.Connections[FlatFileConnection]"
+                  refId="Package\BuildingLocation Task\Flat File Source.Connections[FlatFileConnection]"
                   connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager]"
                   connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output]"
+                  refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output]"
                   name="Flat File Source Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[House Number]"
+                      refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[House Number]"
                       codePage="65001"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[House Number]"
+                      externalMetadataColumnId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[House Number]"
                       length="50"
-                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[House Number]"
+                      lineageId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[House Number]"
                       name="House Number"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -488,14 +515,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[House Street]"
+                      refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[House Street]"
                       codePage="65001"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[House Street]"
+                      externalMetadataColumnId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[House Street]"
                       length="500"
-                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[House Street]"
+                      lineageId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[House Street]"
                       name="House Street"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -510,14 +537,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ZIP Code]"
+                      refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[ZIP Code]"
                       codePage="65001"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ZIP Code]"
+                      externalMetadataColumnId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ZIP Code]"
                       length="50"
-                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ZIP Code]"
+                      lineageId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[ZIP Code]"
                       name="ZIP Code"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -532,14 +559,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Special District]"
+                      refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[Special District]"
                       codePage="65001"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="IgnoreFailure"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Special District]"
+                      externalMetadataColumnId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Special District]"
                       length="50"
-                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Special District]"
+                      lineageId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[Special District]"
                       name="Special District"
                       truncationRowDisposition="IgnoreFailure">
                       <properties>
@@ -554,14 +581,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Community Board]"
+                      refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[Community Board]"
                       codePage="65001"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Community Board]"
+                      externalMetadataColumnId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Community Board]"
                       length="50"
-                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Community Board]"
+                      lineageId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[Community Board]"
                       name="Community Board"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -576,14 +603,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[BIN]"
+                      refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[BIN]"
                       codePage="65001"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[BIN]"
+                      externalMetadataColumnId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[BIN]"
                       length="50"
-                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[BIN]"
+                      lineageId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[BIN]"
                       name="BIN"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -601,91 +628,91 @@
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Complaint Number]"
+                      refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Complaint Number]"
                       codePage="65001"
                       dataType="str"
-                      length="50"
+                      length="200"
                       name="Complaint Number" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Status]"
+                      refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Status]"
                       codePage="65001"
                       dataType="str"
                       length="50"
                       name="Status" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Date Entered]"
+                      refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Date Entered]"
                       codePage="65001"
                       dataType="str"
                       length="50"
                       name="Date Entered" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[House Number]"
+                      refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[House Number]"
                       codePage="65001"
                       dataType="str"
                       length="50"
                       name="House Number" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ZIP Code]"
+                      refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ZIP Code]"
                       codePage="65001"
                       dataType="str"
                       length="50"
                       name="ZIP Code" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[House Street]"
+                      refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[House Street]"
                       codePage="65001"
                       dataType="str"
                       length="500"
                       name="House Street" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[BIN]"
+                      refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[BIN]"
                       codePage="65001"
                       dataType="str"
                       length="50"
                       name="BIN" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Community Board]"
+                      refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Community Board]"
                       codePage="65001"
                       dataType="str"
                       length="50"
                       name="Community Board" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Special District]"
+                      refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Special District]"
                       codePage="65001"
                       dataType="str"
                       length="50"
                       name="Special District" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Complaint Category]"
+                      refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Complaint Category]"
                       codePage="65001"
                       dataType="str"
                       length="50"
                       name="Complaint Category" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Unit]"
+                      refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Unit]"
                       codePage="65001"
                       dataType="str"
                       length="50"
                       name="Unit" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Disposition Date]"
+                      refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Disposition Date]"
                       codePage="65001"
                       dataType="str"
                       length="50"
                       name="Disposition Date" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Disposition Code]"
+                      refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Disposition Code]"
                       codePage="65001"
                       dataType="str"
                       length="50"
                       name="Disposition Code" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Inspection Date]"
+                      refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Inspection Date]"
                       codePage="65001"
                       dataType="str"
                       length="50"
                       name="Inspection Date" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[DOBRunDate]"
+                      refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[DOBRunDate]"
                       codePage="65001"
                       dataType="str"
                       length="50"
@@ -693,27 +720,27 @@
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Error Output]"
+                  refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Error Output]"
                   isErrorOut="true"
                   name="Flat File Source Error Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
                       codePage="65001"
                       dataType="text"
                       description="Flat File Source Error Output Column"
-                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      lineageId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
                       name="Flat File Source Error Output Column" />
                     <outputColumn
-                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      lineageId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      refId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -722,7 +749,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task\OLE DB Destination"
+              refId="Package\BuildingLocation Task\OLE DB Destination"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
               description="OLE DB Destination"
@@ -779,99 +806,101 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Data Flow Task\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[db-mssql.s14081]"
-                  connectionManagerRefId="Package.ConnectionManagers[db-mssql.s14081]"
+                  refId="Package\BuildingLocation Task\OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-JBAQPBF\SLAVADB.master]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-JBAQPBF\SLAVADB.master]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
               <inputs>
                 <input
-                  refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  refId="Package\BuildingLocation Task\OLE DB Destination.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of House Number]"
-                      cachedDataType="i4"
+                      refId="Package\BuildingLocation Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of House Number]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
                       cachedName="Copy of House Number"
                       cachedSortKeyPosition="1"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[HouseNumber]"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Copy of House Number]" />
+                      externalMetadataColumnId="Package\BuildingLocation Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[HouseNumber]"
+                      lineageId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[Copy of House Number]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of Community Board]"
+                      refId="Package\BuildingLocation Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of Community Board]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Copy of Community Board"
                       cachedSortKeyPosition="5"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CommunityBoard]"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Copy of Community Board]" />
+                      externalMetadataColumnId="Package\BuildingLocation Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CommunityBoard]"
+                      lineageId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[Copy of Community Board]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of BIN]"
+                      refId="Package\BuildingLocation Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of BIN]"
                       cachedDataType="i4"
                       cachedName="Copy of BIN"
                       cachedSortKeyPosition="6"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[BIN]"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Copy of BIN]" />
+                      externalMetadataColumnId="Package\BuildingLocation Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[BIN]"
+                      lineageId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[Copy of BIN]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of House Street]"
+                      refId="Package\BuildingLocation Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of House Street]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Copy of House Street"
                       cachedSortKeyPosition="2"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[HouseStreet]"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Copy of House Street]" />
+                      externalMetadataColumnId="Package\BuildingLocation Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[HouseStreet]"
+                      lineageId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[Copy of House Street]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of ZIP Code]"
+                      refId="Package\BuildingLocation Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of ZIP Code]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Copy of ZIP Code"
                       cachedSortKeyPosition="3"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ZipCode]"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Copy of ZIP Code]" />
+                      externalMetadataColumnId="Package\BuildingLocation Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ZipCode]"
+                      lineageId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[Copy of ZIP Code]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of Special District]"
+                      refId="Package\BuildingLocation Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of Special District]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Copy of Special District"
                       cachedSortKeyPosition="4"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SpecialDistrict]"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Copy of Special District]" />
+                      externalMetadataColumnId="Package\BuildingLocation Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SpecialDistrict]"
+                      lineageId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[Copy of Special District]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[IdBuildingLocation]"
+                      refId="Package\BuildingLocation Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[IdBuildingLocation]"
                       dataType="i4"
                       name="IdBuildingLocation" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[HouseNumber]"
-                      dataType="i4"
+                      refId="Package\BuildingLocation Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[HouseNumber]"
+                      dataType="wstr"
+                      length="50"
                       name="HouseNumber" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[HouseStreet]"
+                      refId="Package\BuildingLocation Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[HouseStreet]"
                       dataType="wstr"
                       length="50"
                       name="HouseStreet" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ZipCode]"
+                      refId="Package\BuildingLocation Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ZipCode]"
                       dataType="wstr"
                       length="50"
                       name="ZipCode" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SpecialDistrict]"
+                      refId="Package\BuildingLocation Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SpecialDistrict]"
                       dataType="wstr"
                       length="50"
                       name="SpecialDistrict" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CommunityBoard]"
+                      refId="Package\BuildingLocation Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CommunityBoard]"
                       dataType="wstr"
                       length="50"
                       name="CommunityBoard" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[BIN]"
+                      refId="Package\BuildingLocation Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[BIN]"
                       dataType="i4"
                       name="BIN" />
                   </externalMetadataColumns>
@@ -879,22 +908,22 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  refId="Package\BuildingLocation Task\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Destination Error Output"
-                  synchronousInputId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  synchronousInputId="Package\BuildingLocation Task\OLE DB Destination.Inputs[OLE DB Destination Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      refId="Package\BuildingLocation Task\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      lineageId="Package\BuildingLocation Task\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      refId="Package\BuildingLocation Task\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\BuildingLocation Task\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -903,7 +932,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task\Sort"
+              refId="Package\BuildingLocation Task\Sort"
               componentClassID="Microsoft.Sort"
               contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
               description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
@@ -922,16 +951,16 @@
               </properties>
               <inputs>
                 <input
-                  refId="Package\Data Flow Task\Sort.Inputs[Sort Input]"
+                  refId="Package\BuildingLocation Task\Sort.Inputs[Sort Input]"
                   name="Sort Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[House Number]"
+                      refId="Package\BuildingLocation Task\Sort.Inputs[Sort Input].Columns[House Number]"
                       cachedCodepage="65001"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="House Number"
-                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[House Number]">
+                      lineageId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[House Number]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -944,12 +973,12 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[House Street]"
+                      refId="Package\BuildingLocation Task\Sort.Inputs[Sort Input].Columns[House Street]"
                       cachedCodepage="65001"
                       cachedDataType="str"
                       cachedLength="500"
                       cachedName="House Street"
-                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[House Street]">
+                      lineageId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[House Street]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -962,12 +991,12 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[ZIP Code]"
+                      refId="Package\BuildingLocation Task\Sort.Inputs[Sort Input].Columns[ZIP Code]"
                       cachedCodepage="65001"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="ZIP Code"
-                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ZIP Code]">
+                      lineageId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[ZIP Code]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -980,12 +1009,12 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[Special District]"
+                      refId="Package\BuildingLocation Task\Sort.Inputs[Sort Input].Columns[Special District]"
                       cachedCodepage="65001"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Special District"
-                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Special District]">
+                      lineageId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[Special District]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -998,12 +1027,12 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[Community Board]"
+                      refId="Package\BuildingLocation Task\Sort.Inputs[Sort Input].Columns[Community Board]"
                       cachedCodepage="65001"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Community Board"
-                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Community Board]">
+                      lineageId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[Community Board]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -1016,12 +1045,12 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[BIN]"
+                      refId="Package\BuildingLocation Task\Sort.Inputs[Sort Input].Columns[BIN]"
                       cachedCodepage="65001"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="BIN"
-                      lineageId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[BIN]">
+                      lineageId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[BIN]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -1034,10 +1063,11 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[Copy of House Number]"
-                      cachedDataType="i4"
+                      refId="Package\BuildingLocation Task\Sort.Inputs[Sort Input].Columns[Copy of House Number]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
                       cachedName="Copy of House Number"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of House Number]">
+                      lineageId="Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of House Number]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -1050,11 +1080,11 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[Copy of House Street]"
+                      refId="Package\BuildingLocation Task\Sort.Inputs[Sort Input].Columns[Copy of House Street]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Copy of House Street"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of House Street]">
+                      lineageId="Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of House Street]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -1067,11 +1097,11 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[Copy of ZIP Code]"
+                      refId="Package\BuildingLocation Task\Sort.Inputs[Sort Input].Columns[Copy of ZIP Code]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Copy of ZIP Code"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ZIP Code]">
+                      lineageId="Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ZIP Code]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -1084,11 +1114,11 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[Copy of Special District]"
+                      refId="Package\BuildingLocation Task\Sort.Inputs[Sort Input].Columns[Copy of Special District]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Copy of Special District"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Special District]">
+                      lineageId="Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Special District]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -1101,11 +1131,11 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[Copy of Community Board]"
+                      refId="Package\BuildingLocation Task\Sort.Inputs[Sort Input].Columns[Copy of Community Board]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Copy of Community Board"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Community Board]">
+                      lineageId="Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Community Board]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -1118,10 +1148,10 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Data Flow Task\Sort.Inputs[Sort Input].Columns[Copy of BIN]"
+                      refId="Package\BuildingLocation Task\Sort.Inputs[Sort Input].Columns[Copy of BIN]"
                       cachedDataType="i4"
                       cachedName="Copy of BIN"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of BIN]">
+                      lineageId="Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of BIN]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -1139,104 +1169,105 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task\Sort.Outputs[Sort Output]"
+                  refId="Package\BuildingLocation Task\Sort.Outputs[Sort Output]"
                   isSorted="true"
                   name="Sort Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[House Number]"
+                      refId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[House Number]"
                       codePage="65001"
                       dataType="str"
                       length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[House Number]"
+                      lineageId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[House Number]"
                       name="House Number">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[House Number]}</property>
+                          name="SortColumnId">#{Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[House Number]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[House Street]"
+                      refId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[House Street]"
                       codePage="65001"
                       dataType="str"
                       length="500"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[House Street]"
+                      lineageId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[House Street]"
                       name="House Street">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[House Street]}</property>
+                          name="SortColumnId">#{Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[House Street]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[ZIP Code]"
+                      refId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[ZIP Code]"
                       codePage="65001"
                       dataType="str"
                       length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[ZIP Code]"
+                      lineageId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[ZIP Code]"
                       name="ZIP Code">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[ZIP Code]}</property>
+                          name="SortColumnId">#{Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[ZIP Code]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Special District]"
+                      refId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[Special District]"
                       codePage="65001"
                       dataType="str"
                       length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Special District]"
+                      lineageId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[Special District]"
                       name="Special District">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Special District]}</property>
+                          name="SortColumnId">#{Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[Special District]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Community Board]"
+                      refId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[Community Board]"
                       codePage="65001"
                       dataType="str"
                       length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Community Board]"
+                      lineageId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[Community Board]"
                       name="Community Board">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[Community Board]}</property>
+                          name="SortColumnId">#{Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[Community Board]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[BIN]"
+                      refId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[BIN]"
                       codePage="65001"
                       dataType="str"
                       length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[BIN]"
+                      lineageId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[BIN]"
                       name="BIN">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output].Columns[BIN]}</property>
+                          name="SortColumnId">#{Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output].Columns[BIN]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Copy of House Number]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Copy of House Number]"
+                      refId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[Copy of House Number]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[Copy of House Number]"
                       name="Copy of House Number"
                       sortKeyPosition="1">
                       <properties>
@@ -1244,14 +1275,14 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of House Number]}</property>
+                          name="SortColumnId">#{Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of House Number]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Copy of House Street]"
+                      refId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[Copy of House Street]"
                       dataType="wstr"
                       length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Copy of House Street]"
+                      lineageId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[Copy of House Street]"
                       name="Copy of House Street"
                       sortKeyPosition="2">
                       <properties>
@@ -1259,14 +1290,14 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of House Street]}</property>
+                          name="SortColumnId">#{Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of House Street]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Copy of ZIP Code]"
+                      refId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[Copy of ZIP Code]"
                       dataType="wstr"
                       length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Copy of ZIP Code]"
+                      lineageId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[Copy of ZIP Code]"
                       name="Copy of ZIP Code"
                       sortKeyPosition="3">
                       <properties>
@@ -1274,14 +1305,14 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ZIP Code]}</property>
+                          name="SortColumnId">#{Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ZIP Code]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Copy of Special District]"
+                      refId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[Copy of Special District]"
                       dataType="wstr"
                       length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Copy of Special District]"
+                      lineageId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[Copy of Special District]"
                       name="Copy of Special District"
                       sortKeyPosition="4">
                       <properties>
@@ -1289,14 +1320,14 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Special District]}</property>
+                          name="SortColumnId">#{Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Special District]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Copy of Community Board]"
+                      refId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[Copy of Community Board]"
                       dataType="wstr"
                       length="50"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Copy of Community Board]"
+                      lineageId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[Copy of Community Board]"
                       name="Copy of Community Board"
                       sortKeyPosition="5">
                       <properties>
@@ -1304,13 +1335,13 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Community Board]}</property>
+                          name="SortColumnId">#{Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Community Board]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Copy of BIN]"
+                      refId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[Copy of BIN]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Sort.Outputs[Sort Output].Columns[Copy of BIN]"
+                      lineageId="Package\BuildingLocation Task\Sort.Outputs[Sort Output].Columns[Copy of BIN]"
                       name="Copy of BIN"
                       sortKeyPosition="6">
                       <properties>
@@ -1318,7 +1349,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of BIN]}</property>
+                          name="SortColumnId">#{Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of BIN]}</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -1329,38 +1360,22 @@
           </components>
           <paths>
             <path
-              refId="Package\Data Flow Task.Paths[Data Conversion Output]"
-              endId="Package\Data Flow Task\Sort.Inputs[Sort Input]"
+              refId="Package\BuildingLocation Task.Paths[Data Conversion Output]"
+              endId="Package\BuildingLocation Task\Sort.Inputs[Sort Input]"
               name="Data Conversion Output"
-              startId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output]" />
+              startId="Package\BuildingLocation Task\Data Conversion.Outputs[Data Conversion Output]" />
             <path
-              refId="Package\Data Flow Task.Paths[Flat File Source Output]"
-              endId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input]"
+              refId="Package\BuildingLocation Task.Paths[Flat File Source Output]"
+              endId="Package\BuildingLocation Task\Data Conversion.Inputs[Data Conversion Input]"
               name="Flat File Source Output"
-              startId="Package\Data Flow Task\Flat File Source.Outputs[Flat File Source Output]" />
+              startId="Package\BuildingLocation Task\Flat File Source.Outputs[Flat File Source Output]" />
             <path
-              refId="Package\Data Flow Task.Paths[Sort Output]"
-              endId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              refId="Package\BuildingLocation Task.Paths[Sort Output]"
+              endId="Package\BuildingLocation Task\OLE DB Destination.Inputs[OLE DB Destination Input]"
               name="Sort Output"
-              startId="Package\Data Flow Task\Sort.Outputs[Sort Output]" />
+              startId="Package\BuildingLocation Task\Sort.Outputs[Sort Output]" />
           </paths>
         </pipeline>
-      </DTS:ObjectData>
-    </DTS:Executable>
-    <DTS:Executable
-      DTS:refId="Package\Execute SQL Task"
-      DTS:CreationName="Microsoft.ExecuteSQLTask"
-      DTS:Description="Execute SQL Task"
-      DTS:DTSID="{066BE765-8C44-4ED9-A67E-D9B97184DBA7}"
-      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="Execute SQL Task"
-      DTS:ThreadHint="0">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <SQLTask:SqlTaskData
-          SQLTask:Connection="{CDBB9D65-1607-4A08-B6D7-774DDE474773}"
-          SQLTask:SqlStatementSource="delete from BuildingLocation;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
@@ -1369,10 +1384,10 @@
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
       DTS:DTSID="{BB2C7593-3E47-43F6-BEAC-EECA5E53E552}"
-      DTS:From="Package\Execute SQL Task"
+      DTS:From="Package\BuildingLocation"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
-      DTS:To="Package\Data Flow Task" />
+      DTS:To="Package\BuildingLocation Task" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -1387,27 +1402,39 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="151,42"
-          Id="Package\Data Flow Task"
-          TopLeft="202,205" />
-        <NodeLayout
-          Size="163,42"
-          Id="Package\Execute SQL Task"
+          Size="156,42"
+          Id="Package\BuildingLocation"
           TopLeft="203,79" />
+        <NodeLayout
+          Size="181,42"
+          Id="Package\BuildingLocation Task"
+          TopLeft="202,205" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="281,121">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,84"
+              EndConnector="11.5,84"
               Start="0,0"
-              End="0,76.5">
+              End="11.5,76.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,76.5" />
+                    End="0,38" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,38"
+                    Point2="0,42"
+                    Point3="4,42" />
+                  <mssgle:LineSegment
+                    End="7.5,42" />
+                  <mssgle:CubicBezierSegment
+                    Point1="7.5,42"
+                    Point2="11.5,42"
+                    Point3="11.5,46" />
+                  <mssgle:LineSegment
+                    End="11.5,76.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1420,28 +1447,28 @@
     </LayoutInfo>
   </Package>
   <TaskHost
-    design-time-name="Package\Data Flow Task">
+    design-time-name="Package\BuildingLocation Task">
     <LayoutInfo>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="98,42"
-          Id="Package\Data Flow Task\Sort"
+          Id="Package\BuildingLocation Task\Sort"
           TopLeft="581,267" />
         <NodeLayout
           Size="151,42"
-          Id="Package\Data Flow Task\Flat File Source"
+          Id="Package\BuildingLocation Task\Flat File Source"
           TopLeft="376,54" />
         <NodeLayout
           Size="156,42"
-          Id="Package\Data Flow Task\Data Conversion"
+          Id="Package\BuildingLocation Task\Data Conversion"
           TopLeft="418,171" />
         <NodeLayout
           Size="171,42"
-          Id="Package\Data Flow Task\OLE DB Destination"
+          Id="Package\BuildingLocation Task\OLE DB Destination"
           TopLeft="545,366" />
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Sort Output]"
+          Id="Package\BuildingLocation Task.Paths[Sort Output]"
           TopLeft="630.25,309">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -1463,7 +1490,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Flat File Source Output]"
+          Id="Package\BuildingLocation Task.Paths[Flat File Source Output]"
           TopLeft="451.5,96">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -1497,7 +1524,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Data Conversion Output]"
+          Id="Package\BuildingLocation Task.Paths[Data Conversion Output]"
           TopLeft="496,213">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -1534,7 +1561,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\OLE DB Destination">
+    design-time-name="Package\BuildingLocation Task\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
